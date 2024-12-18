@@ -31,13 +31,22 @@ a:hover {
 }
 
 main {
-    margin-top: 55px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     clear: both;
 }
-
-footer {
+h2{
+    clear: both;
+}
+p{
+    text-align: justify;
+}
+footer, footer p{
+    clear: both;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     padding: 10px;
     background-color: #bde596;
