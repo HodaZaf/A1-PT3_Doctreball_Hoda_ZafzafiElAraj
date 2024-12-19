@@ -23,6 +23,9 @@ main {
     background-color: white;
     clear: both;
 }
+section, article{
+    clear: both;
+}
 img{
     width: 300px;
     height: 75%;
@@ -77,6 +80,7 @@ span {
     text-align: center;
     background-color: white;
     padding-top: 15px;
+    z-index: 10;
 }
 #logo {
     font-size: large;
@@ -95,15 +99,14 @@ span {
 
 /*Pagina receptes*/
 .recepta{
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: auto auto;
 }
-.imgRec{
-    flex: 50%;
+.receptaRev{
+    display: grid;
+    grid-template-columns: auto auto;
 }
-.textRec{
-    flex: 50%;
-}
+
 /*Pagina formularis*/
 #formulari{
     border: 10px #B0E596 solid;
