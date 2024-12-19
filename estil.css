@@ -26,7 +26,19 @@ main {
 }
 img{
     border-radius: 5px;
-    box-shadow: 10px 10px #E77070;
+    animation: colors 5s infinite;
+    margin-bottom: 5px;
+}
+@keyframes colors{
+    0%{
+        box-shadow: 10px 10px #B0E596;
+    }
+    50%{
+        box-shadow: 10px 10px #E77070;
+    }
+    100%{
+        box-shadow: 10px 10px #B0E596;
+    }
 }
 h1 {
     font-size: 50px;
